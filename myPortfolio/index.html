@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scal=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/881df842e2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h3>Welcome! To a<br><span>.NET Developer & Software Engineer</span><br>Portfolio..</h3>
+            </div>
+        </div>
+    </div>
+
+<!----------About Section---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                 <h2 class="sub-title">About</h2>
+                 <p><b><span>Hello,</span></b> I'm <b> <span>Md. Bodrul Islam,</b></span> a <span><b>.NET Developer and Software Engineer</b></span> from Bangladesh shaped by both academic 
+                    rigor and hands-on experience. I have completed my B.Sc. Engineering in <b>CSE</b> from the <b>University of Dhaka</b>, securing <b><span>2nd</span></b> position in my department.
+                    <br><br>My passion lies in developing <span><b>clean, scalable and high-performance</span></b> applications to make the world a better place!. <br> <br>
+                    I’m highly motivated to pursue further studies and research in <b><span>AI, ML, Data Science & Cyber Security</span></b>.<br> 
+                    <br>I also actively serve the community as a dedicated Rover.</p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('activities')">Activities</p>
+                        <p class="tab-links" onclick="opentab('language')">Language</p>
+                        <p class="tab-links" onclick="opentab('awards')">Awards</p>
+                     </div>
+                     
+                     <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Programing Language</span><br>C | C# | Python | JavaScript | LaTex | (HTML, CSS, Bootstrap, MySQL, Git & GitLab)</li>
+                            <li><span>Digital / Soft Skills</span><br>MS Office & MS 365 | Google Suite | Adobe (Photoshop, Premiere Pro) | Canva Pro | Linux & Windows.</li>
+                            <li><span>Interpersonal Skills</span><br>Public Speaking | Problem Solving | Leadership | Fast Learner | Hard Worker | Team Work & Management.</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="activities">
+                        <ul>
+                            <li><span>CR | 3rd, 5th & 7th Semester</span><br> During my BSc Engineering in CSE.</li>
+                            <li><span>Rover | Bangladesh Scouts Rover Region</span><br>BS ID: BQ5823 and WOSM ID: 3164633.</li>
+                            <li><span>Treasurer | Crew Council Committee (2022-'23 & '23-'24)</span><br>Mymensingh Engineering College Rover Scout Group.</li>
+                            <li><span>Network and Security Secretary | Executive Committee (2022-'23 & '23-'24)</span><br>Mymensingh Engineering College (MEC) Computer Club.</li>
+                            <li><span>Information & Communication Secretary | Executive Committee (2022-Present)</span><br>Pradeep (Renownd Voluntary Blood Donation Group in BD)</li>
+                            <li><span>Member | Executive Committee (2020-'22 & '22-'24)</span><br>Borni Expatriates' Social Welfare Council.</li>
+                            <li><span>Organizing Secretary | Executive Committee (2019-'20 & '21-'22)</span><br>Borni Student Forum | SSC Batch-2016 | Student ID: 182.</li>
+                        </ul>
+                     </div>
+                     
+                     <div class="tab-contents" id="language">
+                        <ul>                            
+                            <li><span>Language Proficiency</span><br>Bangla (Native) | English (Fluent Professional Proficiency)</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="awards">
+                        <ul>
+                            <li><span>Annual Institute Award | 2021 & 2023</span><br>I honored this award twice by the University of Dhaka of my outstanding academic performance.</li>
+                            <li><span>Merit Schoolarship | Dept. of CSE</span><br>I received this merit scholarship each semester for consistently ranking among the top 5 students in my department.</li>
+                            <li><span>Govt. Scholarship | Sylhet Board | 2016</span><br>I was granted this Govt. Scholarship for my exceptional SSC results.</li>
+                            <li><span>Zilla Parishad Scholarship | Sylhet Zilla Parishad </span><br>I received this prestigious Sylhet Zilla Parishad Scholarship in 2016.</li>
+                            <li><span>Govt. Scholarship | Sylhet Board | 2013 </span><br>I earned this Govt. Scholarship for my exceptional JSC results.</li>
+                            <li><span>Upazila Parishad Scholarship | 2013</span><br>I awarded this scholarship from Companigonj Upazila, Sylhet.</li>
+                            <li><span>Companiganj Chatro Parishad (Cochap) Scholarship | 2012</span><br>I was awarded this scholarship during my grade 7.</li>
+                            <li><span>Govt. Scholarship | Directorate of Primary Education, BD | 2010</span><br>I granted this Govt. Scholarship for my exceptional PSC results.</li>
+                        </ul>
+                     </div>     
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-----------------Education----------------->
+<div id="education">
+    <div class="container">
+        <h2 class="sub-title">Education</h2>
+        <h3>A brief layout of my educational journey is provided below:</h3>
+        <section class="education-section">
+            <!-- Education Table (Left Column) -->
+            <div class="column">
+            <h2>Academic Qualifications:</h2>
+            <table>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                    <th>CGPA/GPA</th>
+                </tr>
+                <tr>
+                    <td>BSc Engr. in CSE</td>
+                    <td>University of Dhaka</td>
+                    <td>2024</td>
+                    <td>3.70</td>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td>Sylhet MC College</td>
+                    <td>2018</td>
+                    <td>4.08</td>
+                </tr>
+                    <tr>
+                    <td>SSC</td>
+                    <td>Shaheed Smrity Tuker Bazar High School</td>
+                    <td>2016</td>
+                    <td>5.00</td>
+                </tr>
+                <tr>
+                    <td>JSC</td>
+                    <td>Shaheed Smrity Tuker Bazar High School</td>
+                    <td>2013</td>
+                    <td>5.00</td>
+                </tr>
+                <tr>
+                    <td>PSC</td>
+                    <td>Barni Govt. Primary School</td>
+                    <td>2010</td>
+                    <td>5.00</td>
+                </tr>
+            </table>
+            </div>
+
+            <!-- Professional Courses (Right Column) -->
+            <div class="column">
+            <h2>Professional Courses:</h2>
+            <table>
+                <tr>
+                    <th>Course</th>
+                    <th>Institute</th>
+                    <th>Verification ID</th>
+                </tr>
+                <tr>
+                    <tr>
+                    <td>.NET Core Developer</td>
+                    <td>ICT Bangladesh</td>
+                    <td>2025-166-765-2504</td>
+                </tr>
+                <tr>
+                    <td>Python for Data Science</td>
+                    <td>CISCO</td>
+                    <td>C25W1911S813</td>
+                </tr>
+                <tr>
+                    <td>Cybersecurity for Professionals</td>
+                    <td>Byte Capsule</td>
+                    <td>72QONEKG</td>
+                </tr>
+                <tr>
+                    <td>Professional Cyber Security</td>
+                    <td>Arena Web Security</td>
+                    <td>A43W1911S041</td>
+                </tr>
+                <tr>
+                    <td>Full Stack Web Developer</td>
+                    <td>Bohubrihi</td>
+                    <td>41681-166-765-7950</td>
+                </tr>
+            </table>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+<!----------------Research--------------------->
+<div id="research">
+    <div class="container">
+        <h2 class="sub-title">Research</h2>
+        <h4>I’m highly motivated to pursue further studies and research in <br> <span>AI, ML, Data Science and Cyber Security.</span></h4> <br>
+    <div class="tab-row">
+        <div class="tab-item active" onclick="showTab('tab1')">Conference</div>
+        <div class="tab-item" onclick="showTab('tab2')">Journal</div>
+        <div class="tab-item" onclick="showTab('tab3')">Thesis</div>
+        <div class="tab-item" onclick="showTab('tab4')">Project</div>
+   </div>
+    
+    <div id="tab1" class="tab-content active">
+        <p><b>Accepted Conference Papers:</b></p>
+        
+        <p><b>01: <q>Tversky Loss Mechanisms: A ResUNet Approach to Improving Brain Tumor Segmentation</q>.</b></p>
+    </div>
+
+    <div id="tab2" class="tab-content">
+        <p><b>Oh! Coming Soon..</b> (Under Review)</p>
+    </div>
+
+    <div id="tab3" class="tab-content">
+        <p><b>BSc Engineering Thesis:</b></p><br>
+        
+        <p><b>Title: <q>Modified Advanced Encryption Standard Algorithm For Resource-Constrained IoT Devices</q>.</b></p>
+        <p> Supv: Engr. Khaleda Ferdousi | Asst. Pro. Dept. of CSE, MEC.</p><br>
+    </div>
+
+    <div id="tab4" class="tab-content">
+        <p><b>Academic Projects (BSc Engineering):</b></p><br>
+        
+        <p><b>01. Campus Blood Donation Management System Project.</b></p>
+        <p> Supv: Md. Nagrul Islam | Lecturer Dept. of CSE, MEC.</p><br>
+    
+        <p><b>02. Train Accident Prevention Project.</b></p>
+        <p> Supv: Engr. Khaleda Ferdousi | Asst. Pro. Dept. of CSE, MEC.</p><br>
+
+        <p><b>03. Official Website for the Department of CSE.</b></p>
+        <p> Supv: Rownak Ara Chowdhury | Head Dept. of CSE, MEC.</p><br>
+
+        <p><b>04. SonicGuide: A Sensor-Based Navigation System for the Visually Impaired.</b></p>
+        <p> Supv: Ozifatun Jannat Akhi | Lecturer Dept. of CSE, MEC.</p>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-----------------Servicess------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1> 
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>.NET Application</h2>
+                <p>Building scalable web and desktop applications 
+                    using C#, ASP.NET, and the .NET framework.</p>
+                <a href="#">Learn more</a>
+            </div>
+             <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Android & iOS Application</h2>
+                <p>Building high-performance Android and iOS apps 
+                    to make the world a better place!.</p>
+                <a href="#">Learn more</a>
+            </div>
+             <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Web Application</h2>
+                <p>Developing responsive, user-friendly full-stack 
+                    web applications using modern technologies.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-------------Project---------------->
+<div id="project">
+    <div class="container">
+       <h1 class="sub-title">Recent Work</h1>
+       <div class="project-list">
+            <div class="project">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Android / iOS App</h3>
+                    <p>Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit. Temporibus, 
+                    necessitatibus?</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Windows App</h3>
+                    <p>Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit. Temporibus, 
+                    necessitatibus?</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Web Application</h3>
+                    <p>Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit. Temporibus, 
+                    necessitatibus?</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+       </div>  
+       <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<!---------------Blog------------------>
+
+
+
+
+
+<!-------------Contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Get In Touch</h1>
+                <p><i class="fa-solid fa-envelope"></i>mdbodrulislam813@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>(+880) 1521704649</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/bodrul369/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/bodrul2211"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://x.com/bodrul813"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://github.com/bodrul813"><i class="fa-brands fa-gitlab"></i></a>
+                </div>
+                <a href="images/My CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <p>Feel free to reach out for any ventures!</p>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your E-mail" required>
+                    <textarea name="Message" row="5" placeholder="Write Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made by <i class="fa-solid fa-heart"></i> Bodrul. <i class="fa-regular fa-copyright"></i> All rights reserved.</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<!----Research -->
+ <script>
+    function showTab(id) {
+      // Remove active class from all items and contents
+      document.querySelectorAll('.tab-item').forEach(item => item.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+
+      // Add active class to selected tab and its content
+      document.querySelector(`.tab-item[onclick="showTab('${id}')"]`).classList.add('active');
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxevq0XMaGXtyhhsUmsFzRWj6M0XecHdh64DMarV86AOMVX-j2Me634lIEQfOMqnlU/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Thank You! <br> Your Message is Recived."
+        setTimeout(function(){
+            msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      } )
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
