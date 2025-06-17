@@ -1,4 +1,4 @@
-# 🌐 Md. Bodrul Islam – .NET Developer Portfolio
+# 🌐 A .NET Developer Portfolio
 
 Welcome to my personal developer portfolio repository! This project showcases who I am, what I do, and the work I've created as a .NET Developer, aspiring researcher, and tech enthusiast.
 
@@ -30,9 +30,9 @@ I'm deeply interested in **Cybersecurity**, **Artificial Intelligence**, and **M
   
 ## 📫 Contact Me
 
-- ✉️ Email: your.email@example.com  
-- 🌐 LinkedIn: [[linkedin.com/in/yourprofile](https://www.linkedin.com/in/bodrul369/) 
-- 💻 GitHub: [github.com/yourusername](https://github.com/bodrul813)  
+- ✉️ Email: mdbodrulislam813@gmail.com  
+- 🌐 LinkedIn: (https://www.linkedin.com/in/bodrul369/) 
+- 💻 GitHub: (https://github.com/bodrul813)  
 
 ---
 
