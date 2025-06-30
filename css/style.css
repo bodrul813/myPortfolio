@@ -617,6 +617,7 @@ section.active {
 
 .resume-detail.about .resume-item p{
     color: var(--main-color);
+    background-color: var(--bg-color);
 }
 
 .resume-detail.about .resume-item p span{
