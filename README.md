@@ -10,7 +10,7 @@ I'm deeply interested in **Cybersecurity**, **Artificial Intelligence**, and **M
 
 ## 🔗 Live Portfolio
 
-👉 Visit My Portfolio: [(https://bodrul813.netlify.app/)](https://bodrul.netlify.app/)
+👉 Visit My Portfolio: https://bodrul.netlify.app
 
 ## 🛠️ Features
 
@@ -31,7 +31,7 @@ I'm deeply interested in **Cybersecurity**, **Artificial Intelligence**, and **M
 ## 📫 Contact Me
 
 - ✉️ Email: mdbodrulislam813@gmail.com  
-- 🌐 LinkedIn: (https://www.linkedin.com/in/bodrul369/) 
+- 🌐 LinkedIn: (https://www.linkedin.com/in/bodrul369)
 - 💻 GitHub: (https://github.com/bodrul813)  
 
 ---
