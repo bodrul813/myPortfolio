@@ -10,7 +10,7 @@ I'm deeply interested in **Cybersecurity**, **Artificial Intelligence**, and **M
 
 ## 🔗 Live Portfolio
 
-👉 Visit My Portfolio[(https://bodrul813.netlify.app/)]
+👉 Visit My Portfolio: [(https://bodrul813.netlify.app/)](https://bodrul.netlify.app/)
 
 ## 🛠️ Features
 
