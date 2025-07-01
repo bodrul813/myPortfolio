@@ -982,7 +982,7 @@ section.active {
 
     .home-detail .btn-sci{
         flex-direction: column-reverse;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
 
     }
      .home-detail .btn-sci .sci{
